@@ -111,7 +111,7 @@ body {
 }
 
 .foto_azul {
-  margin-top: 164px;
+  margin-top: 132px;
   position: absolute;
   left: 82px;
   background-image: url(../img/decoracao_foto_azul.png);
@@ -127,6 +127,7 @@ body {
   background-repeat: no-repeat;
   height: 523px;
   width: 828px;
+  top: 44%;
 }
 
 .foto {
@@ -145,4 +146,118 @@ body {
   width: 750px;
   top: 4%;
   left: 3%;
+}
+
+@media(max-width: 1025px) {
+  .barraDeNavegacao {
+    height: 52px;
+  }
+
+  .linha {
+    top: 58px;
+  }
+
+  .seta_dobrada {
+    left: 868px;
+    top: 26%;
+  }
+
+  .seta {
+    display: none;
+  }
+
+  .sobre {
+    margin: 8px 26px;
+  }
+
+  .me {
+    transform: rotate(90deg);
+    margin-top: 10vh;
+    right: 86%;
+    width: 200px;
+  }
+
+  .foto_azul {
+    display: none;
+  }
+
+  .foto_roxa {
+    top: 38%;
+  }
+}
+
+@media(max-width:769px) {
+  .barraDeNavegacao {
+    height: 62px;
+  }
+
+  .linha {
+    top: 68px;
+  }
+
+  .seta_dobrada {
+    display: none;
+  }
+
+  .seta {
+    display: none;
+  }
+
+  .sobre {
+    margin: 26px 6px;
+  }
+
+  .me {
+    transform: rotate(0deg);
+    margin-top: 10vh;
+    right: 25%;
+    top: 98vh;
+  }
+
+  .foto_roxa {
+    top: 46%;
+    right: -12%;
+  }
+}
+
+@media (max-width:481px) {
+  .linha {
+    top: 78px;
+  }
+
+  .seta_dobrada {
+    display: none;
+  }
+  
+  .seta {
+    display: block;
+    left: 80%;
+    top: 45%;
+  }
+  .titulo{
+    font-size: 108px;
+  }
+  .sobre {
+    margin: 58px 26px;
+    width: 768px;
+  }
+
+  .me {
+    transform: rotate(0deg);
+    margin-top: -3vh;
+    right: -12%;
+    width: 200px;
+  }
+
+  .foto_azul {
+    left: 32%;
+    top: 40%;
+    display: block;
+  }
+
+  .foto_roxa {
+    display: block;
+    left: 1%;
+    top: 100%;
+  }
 }

@@ -63,7 +63,7 @@ main {
     align-items: center;
     padding: 22px 52px;
     color: #EEEEEE;
-    margin-top: 46vh;
+    margin-top: 43.6vh;
     margin-left: -22vw;
 }
 
@@ -94,7 +94,7 @@ main {
     transform: rotate(-90deg);
     background-color: #0A162D;
     width: 100vh;
-    margin-top: 38vh;
+    margin-top: 35.5vh;
     margin-left: 69vw;
     display: flex;
     align-items: center;
@@ -152,8 +152,20 @@ button {
 .fotos_passadas {
     height: 92px;
 }
-
-@media(max-width: 768px) {
+@media(max-width: 1025px){
+    .lateral_esquerda{
+        margin-top: 43.5vh;
+        margin-left: -36vw;
+    }
+    .lateral_direita{
+        margin-top: 35.5vh;
+        margin-left: 49vw;
+    }
+    .selecionado{
+        left: 0;
+    }
+}
+@media(max-width: 769px) {
     .centro {
         top: 30%;
         left: 40%;
@@ -190,10 +202,6 @@ button {
         padding: 16px 36px;
     }
 
-    .camada02 {
-        padding: 12px 88px 0px 88px;
-    }
-
     .logo {
         height: 62px;
     }
@@ -207,8 +215,7 @@ button {
         height: 62px;
     }
 }
-
-@media (max-width:414px) {
+@media(max-width:481px ) {
     .centro {
         top: 40%;
         height: 10%;
@@ -225,7 +232,6 @@ button {
         margin-left: 0;
         width: 100vw;
         transform: rotate(0deg);
-        padding: 14px 32px;
     }
 
     .voltar img {
@@ -241,11 +247,11 @@ button {
         bottom: 0;
         margin-left: 0;
         transform: rotate(0deg);
-        padding: 16px 36px;
+        padding: 12px 26px 0px 26px;
     }
 
     .camada02 {
-        padding: 12px 28px 0px 28px;
+        padding: 12px 26px 0px 26px;
     }
 
     .logo {
