@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+
+body {
+  background: #142850;
+  height: 100vh;
+  width: 100vw;
+  padding: 22px 32px;
+  overflow: hidden;
+
+}
+
+.barraDeNavegacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 72px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 26px;
+}
+
+.barraDeNavegacao .logo {
+  height: 68px;
+  align-self: center;
+}
+
+.barraDeNavegacao .menu {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-right: 128px;
+  cursor: pointer;
+}
+
+.pesquisa {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: #27496D;
+  background-image: url(../img/lupa.png);
+  background-repeat: no-repeat;
+  background-size: 32px;
+  background-position: 92% 50%;
+  color: #9BBEE1;
+}
+
+::placeholder {
+  color: #9BBEE1;
+}
+
+.linha {
+  position: absolute;
+  width: 100vw;
+  height: 42px;
+  left: 0px;
+  top: 68px;
+  z-index: -1;
+}
+
+.sobre {
+  margin: 94px 94px 32px 94px;
+  width: 838px;
+}
+
+.titulo {
+  font-size: 128px;
+  color: #00A8CC;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.info {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 128px;
+  font-size: 32px;
+  color: #EEEEEE;
+}
+
+.seta_dobrada {
+  position: absolute;
+  top: 288px;
+  left: 1126px;
+}
+
+.me {
+  color: #EEEEEE;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 360px;
+  right: 0px;
+  font-size: 20px;
+  font-family: 'Pixelify Sans', cursive;
+}
+
+.seta {
+  position: absolute;
+  top: 478px;
+  left: 406px;
+}
+
+.foto_azul {
+  margin-top: 164px;
+  position: absolute;
+  left: 82px;
+  background-image: url(../img/decoracao_foto_azul.png);
+  background-repeat: no-repeat;
+  height: 306px;
+  width: 542px;
+}
+
+.foto_roxa {
+  position: absolute;
+  right: 82px;
+  background-image: url(../img/decoracao_foto_roxa.png);
+  background-repeat: no-repeat;
+  height: 523px;
+  width: 828px;
+}
+
+.foto {
+  position: absolute;
+}
+
+.foto_azul .foto {
+  height: 266px;
+  width: 498px;
+  top: 7%;
+  left: 4%;
+}
+
+.foto_roxa .foto {
+  height: 460px;
+  width: 750px;
+  top: 4%;
+  left: 3%;
+}

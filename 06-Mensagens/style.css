@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.card-container{
+    display: grid;
+    gap: 16px;
+}
+.card{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    background-color:lightblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px #0009;
+}
+.divContainer{
+    display: grid;
+    width: 100%;
+    padding: 3px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40% 30%;
+    grid-template-areas: 
+    "destinatario notificacao tempo"
+    "mensagem mensagem mensagem"
+    "remetente remetente remetente";
+}
+.card img{
+    max-width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.destinatario{
+    padding: 10px;
+    place-self: center start;
+    grid-area: destinatario;
+}
+.notificacao{
+    place-self: self-start;
+    grid-area: notificacao;
+    border-radius: 50%;
+    padding: 5px 9px;
+    background-color: mediumturquoise;
+}
+.tempo{
+    grid-area: tempo;
+}
+.mensagem{
+    grid-area: mensagem;
+}
+.remetente{
+    grid-area: remetente;
+    place-self: start;
+    border-radius: 20%;
+    padding: 4px;
+    background-color: lavender;
+}
+

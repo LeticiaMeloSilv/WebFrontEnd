@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    gap: 16px;
+}
+
+.item{
+    height: 150px;
+    width: 80%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+}
+.texto{
+    color: black;
+    font-size: 64px;
+}
+
+.forma{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.vermelho{
+    background-color: rebeccapurple;
+}
+.circulo{
+    border-radius: 50%;
+}
+.estrela{
+background-image:url(./img/star.svg);
+background-size: cover;
+background-color: aliceblue;
+}
+.linha{
+height: 10px;
+}
+.rotate{
+    transform: rotate(360deg);
+}
+.fundo{
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+}

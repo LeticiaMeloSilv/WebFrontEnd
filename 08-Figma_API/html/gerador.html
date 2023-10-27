@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Montserrat:wght@600&family=Pixelify+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/gerador.css">
+    <script src="../js/gerador.js" defer></script>
+    <title>TouchDown</title>
+</head>
+
+<body>
+    <main>
+        <div class="esconder" id="esconder">
+            <img src="../img/centro.png" alt="" class="centro">
+            <div class="lateral_esquerda">
+                <a href="./figma.html" class="voltar">
+                    <img src="../img/botao_voltar.png" alt="Voltar para a pagina inicial">
+                    <h2>Voltar</h2>
+                </a>
+                <h2 class="touchdown">TouchDown</h2>
+                <img src="../img/trocar_camera.png" alt="" class="trocar_camera">
+            </div>
+            <div class="lateral_direita">
+                <div class="camada01">
+                    <button class="botao_esconder" id="botao_esconder">Esconder</button>
+                    <p class="pagina_atual">Foto</p>
+                    <a id="editor" href="../html/edicao.html">Editar</a><!-- link temporario -->
+                </div>
+                <div class="camada02">
+                    <img src="../img/logo.png" alt="logo" class="logo">
+                    <button class="gerar_outra_imagem" id="gerar_outra_imagem"><img class="gerar_outra_imagem" src="../img/circulo.png"
+                            alt="gerar outra imagem"></button>
+                    <img src="../img/camadas.png" alt="" class="fotos_passadas">
+                </div>
+            </div>
+        </div>
+        <ul class="api_imagens" id="imagens">
+        </ul>
+    </main>
+</body>
+
+</html>

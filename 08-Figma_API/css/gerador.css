@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+    color: #EEEEEE;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+    background-color: #0A162D;
+    position: fixed;
+}
+
+.api_imagens {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.api_imagens img:not(.selecionado) {
+    display: none;
+}
+
+.selecionado {
+    top: 0%;
+    left: 108px;
+    position: fixed;
+    z-index: -1;
+    max-width: 100vw;
+    height: 100vh;
+    /* opacity: 1; */
+    display: block;
+}
+
+.centro {
+    position: fixed;
+    top: 30%;
+    left: 35%;
+}
+
+.lateral_esquerda {
+    position: fixed;
+    transform: rotate(-90deg);
+    width: 100vh;
+    background-color: #0A162D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 52px;
+    color: #EEEEEE;
+    margin-top: 46vh;
+    margin-left: -22vw;
+}
+
+.voltar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.voltar img {
+    height: 38px;
+}
+
+.voltar h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.touchdown {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.trocar_camera {
+    height: 64px;
+}
+
+.lateral_direita {
+    position: fixed;
+    transform: rotate(-90deg);
+    background-color: #0A162D;
+    width: 100vh;
+    margin-top: 38vh;
+    margin-left: 69vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #EEEEEE;
+    font-size: 32px;
+    padding: 26px 36px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.camada01 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+}
+
+.ocultar {
+    display: none;
+}
+
+.esconder {
+    height: 100vh;
+    width: 100vw;
+}
+
+.pagina_atual {
+    -webkit-text-stroke: 1px #64CCC5;
+}
+
+.camada02 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 78px 0px 78px;
+}
+
+.logo {
+    height: 92px;
+}
+
+.gerar_outra_imagem {
+    height: 146px;
+    cursor: pointer;
+}
+
+.fotos_passadas {
+    height: 92px;
+}
+
+@media(max-width: 768px) {
+    .centro {
+        top: 30%;
+        left: 40%;
+        height: 20%;
+    }
+
+    .selecionado {
+        left: 0;
+        width: 100vw;
+        max-height: 100vh;
+    }
+
+    .lateral_esquerda {
+        margin-top: 0;
+        margin-left: 0;
+        width: 100vw;
+        transform: rotate(0deg);
+        padding: 18px 72px;
+    }
+
+    .voltar img {
+        height: 32px;
+    }
+
+    .trocar_camera {
+        height: 52px;
+    }
+
+    .lateral_direita {
+        width: 100vw;
+        bottom: 0;
+        margin-left: 0;
+        transform: rotate(0deg);
+        padding: 16px 36px;
+    }
+
+    .camada02 {
+        padding: 12px 88px 0px 88px;
+    }
+
+    .logo {
+        height: 62px;
+    }
+
+    .gerar_outra_imagem {
+        height: 102px;
+        cursor: pointer;
+    }
+
+    .fotos_passadas {
+        height: 62px;
+    }
+}
+
+@media (max-width:414px) {
+    .centro {
+        top: 40%;
+        height: 10%;
+    }
+
+    .selecionado {
+        left: 0;
+        max-width:initial;
+        max-height: 80vh;
+    }
+
+    .lateral_esquerda {
+        margin-top: 0;
+        margin-left: 0;
+        width: 100vw;
+        transform: rotate(0deg);
+        padding: 14px 32px;
+    }
+
+    .voltar img {
+        height: 26px;
+    }
+
+    .trocar_camera {
+        height: 38px;
+    }
+
+    .lateral_direita {
+        width: 100vw;
+        bottom: 0;
+        margin-left: 0;
+        transform: rotate(0deg);
+        padding: 16px 36px;
+    }
+
+    .camada02 {
+        padding: 12px 28px 0px 28px;
+    }
+
+    .logo {
+        height: 52px;
+    }
+
+    .gerar_outra_imagem {
+        height: 90px;
+        cursor: pointer;
+    }
+
+    .fotos_passadas {
+        height: 53px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    button,p,a{
+        font-size: 22px;
+    }
+}
