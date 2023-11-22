@@ -1,0 +1,22 @@
+---FUNÇÕES BACK-END---
+    Tela Inicial{
+
+    }
+    Tela Login{
+        -função que verifica se o email inserido está cadastrado e que verifica se a senha está certa
+    }
+    Tela Home{
+        -criar função de pesquisa
+        -funcao que verifica quais pizzas do array estão marcadas com o coracao de favoritas
+    }
+    Tela Detalhe do Produto{
+        -função que pega as informacoes de uma pizza atravez do seu id
+        -função que permite favoritar a pizza 
+    }
+    Tela Criar Conta{
+        -função que permite dar upload em foto e salva ela na conta
+        -função que guarda os dados da conta
+    }
+    Tela Perfil{
+        -função que mostra na tela as info do usuario
+    }

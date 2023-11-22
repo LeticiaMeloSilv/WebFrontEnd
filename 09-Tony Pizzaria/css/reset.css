@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+button{
+    border: none;
+}
+input{
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    outline: none;
+}
+hr{
+    border: 1px solid aliceblue;
+}

@@ -1,0 +1,72 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../img/background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img {
+    margin: 21px 41px;
+}
+
+main h1 {
+    margin: 75px 19px 15px 19px;
+    color: aliceblue;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* width: 256px; */
+}
+
+main h3 {
+    margin: 0px 19px 62px 19px;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dados {
+    margin: 0px 33px;
+    font-size: 16px;
+}
+
+.dados hr {
+    margin: 10px 0px 28px 0px;
+}
+
+/* 
+.dados:nth-child(3) {
+} */
+::placeholder {
+    color: aliceblue;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_entrar {
+    background-color: aliceblue;
+    color: #F27706;
+    padding: 15px 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+main h4{
+    color: aliceblue;
+    margin-left: 56%;
+    margin-top: 12px;
+}
+footer h4{
+    font-size: 14px;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    color: aliceblue;
+}
